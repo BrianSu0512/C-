@@ -13,21 +13,22 @@ namespace AsyncPoker
             yield return "hearts";
             yield return "spades";
         }
+
         static IEnumerable<string> Ranks()
         {
-            yield return "two";
-            yield return "three";
-            yield return "four";
-            yield return "five";
-            yield return "six";
-            yield return "seven";
-            yield return "eight";
-            yield return "nine";
-            yield return "ten";
-            yield return "jack";
-            yield return "queen";
-            yield return "king";
-            yield return "ace";
+            yield return "Two";
+            yield return "Three";
+            yield return "Four";
+            yield return "Five";
+            yield return "Six";
+            yield return "Seven";
+            yield return "Eight";
+            yield return "Nine";
+            yield return "Ten";
+            yield return "Jack";
+            yield return "Queen";
+            yield return "King";
+            yield return "Ace";
         }
 
         public static List<Poker> cardList { get; set; } = new List<Poker>();
